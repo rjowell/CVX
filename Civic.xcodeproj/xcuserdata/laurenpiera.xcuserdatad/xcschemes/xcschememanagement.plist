@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CVX Update Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>CVX Updates.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>CVX Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CVXWidget1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Civic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>2CCA349F1F1E50B80022F625</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2CF86D7D1F8D43EE0089378E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

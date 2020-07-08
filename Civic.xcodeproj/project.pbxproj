@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C022A7C1F47666700405492 /* ElectionCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C022A7B1F47666700405492 /* ElectionCalendar.swift */; };
+		2C0CACF61F4A75A3004942EB /* ElectionCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CACF51F4A75A3004942EB /* ElectionCalendarCell.swift */; };
+		2C11899F1F7AF40000AB22EB /* CandidateViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11899E1F7AF40000AB22EB /* CandidateViewer.swift */; };
+		2C1189A11F7AF52800AB22EB /* CandidateResultCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1189A01F7AF52700AB22EB /* CandidateResultCellTableViewCell.swift */; };
+		2C13B0E51FCFB58E001B3C45 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2EC6EE1F8C7B70008C406D /* NotificationCenter.framework */; };
+		2C13B0E81FCFB58E001B3C45 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B0E71FCFB58E001B3C45 /* TodayViewController.swift */; };
+		2C13B0EB1FCFB58E001B3C45 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C13B0E91FCFB58E001B3C45 /* MainInterface.storyboard */; };
+		2C13B0EF1FCFB58E001B3C45 /* CVX Updates.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C13B0E41FCFB58E001B3C45 /* CVX Updates.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C13B0F41FCFB68C001B3C45 /* TableViewCell-22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B0F31FCFB68C001B3C45 /* TableViewCell-22.swift */; };
+		2C13B0F61FCFB6CA001B3C45 /* NoReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B0F51FCFB6CA001B3C45 /* NoReminderCell.swift */; };
+		2C13B0F81FCFB6F8001B3C45 /* ElectionUpdateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B0F71FCFB6F8001B3C45 /* ElectionUpdateCell.swift */; };
+		2C1AD1F41F23A8590084925D /* VoteControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1AD1F31F23A8590084925D /* VoteControllerViewController.swift */; };
+		2C215BD01F67195E00D71A43 /* RepresentativeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C215BCF1F67195E00D71A43 /* RepresentativeViewCell.swift */; };
+		2C215BD21F6719BD00D71A43 /* RepresentativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C215BD11F6719BD00D71A43 /* RepresentativeView.swift */; };
+		2C2E6D6D1FC655790028FD06 /* TheElectionCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E6D6C1FC655790028FD06 /* TheElectionCalendar.swift */; };
+		2C38561E1F2C373D00BB090A /* VoteRegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38561C1F2C373D00BB090A /* VoteRegistrationController.swift */; };
+		2C3996691F603E5B0029C31A /* RepresentativeFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3996681F603E5B0029C31A /* RepresentativeFinder.swift */; };
+		2C4640A61FD46158000EF292 /* MainTableBlankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4640A51FD46158000EF292 /* MainTableBlankCell.swift */; };
+		2C4640A81FD4678B000EF292 /* WidgetBlankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4640A71FD4678B000EF292 /* WidgetBlankCell.swift */; };
+		2C4D75051F4D2F4400B73610 /* ElectionCalendarStateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75041F4D2F4400B73610 /* ElectionCalendarStateList.swift */; };
+		2C4D75071F4D31B300B73610 /* ElectionCalendarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75061F4D31B300B73610 /* ElectionCalendarState.swift */; };
+		2C5A07BF1F51E2C30074991C /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A07BE1F51E2C30074991C /* SearchController.swift */; };
+		2C5B7A621F4383BF008D20EB /* LegislationViewStateButtonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B7A611F4383BF008D20EB /* LegislationViewStateButtonsTableViewController.swift */; };
+		2C5B7A641F438747008D20EB /* LawViewStateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B7A631F438747008D20EB /* LawViewStateList.swift */; };
+		2C83D7671F57ABDA00934FE8 /* MainWindowCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83D7661F57ABDA00934FE8 /* MainWindowCellTableViewCell.swift */; };
+		2C8EC8231F6C36ED0036FB1C /* RepresentativeResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EC8221F6C36ED0036FB1C /* RepresentativeResultCell.swift */; };
+		2CC284701F4B43D9007B9B49 /* MonthViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2846F1F4B43D9007B9B49 /* MonthViewCell.swift */; };
 		2CCA348D1F1E50B70022F625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA348C1F1E50B70022F625 /* AppDelegate.swift */; };
 		2CCA348F1F1E50B70022F625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA348E1F1E50B70022F625 /* ViewController.swift */; };
 		2CCA34921F1E50B70022F625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA34901F1E50B70022F625 /* Main.storyboard */; };
@@ -14,9 +41,33 @@
 		2CCA34971F1E50B80022F625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA34961F1E50B80022F625 /* Assets.xcassets */; };
 		2CCA349A1F1E50B80022F625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA34981F1E50B80022F625 /* LaunchScreen.storyboard */; };
 		2CCA34A51F1E50B80022F625 /* CivicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA34A41F1E50B80022F625 /* CivicTests.swift */; };
+		2CCAEAF71F5642280099C7FA /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAEAF61F5642280099C7FA /* SearchResultsController.swift */; };
+		2CD25CF21F71E01B006E3218 /* Voterregistraioncell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD25CF11F71E01B006E3218 /* Voterregistraioncell.swift */; };
+		2CD75A6F1F3420A300201E83 /* LegislationWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD75A6E1F3420A300201E83 /* LegislationWindowViewController.swift */; };
+		2CDEE8D01F3D37AA00A4649D /* StateLawTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEE8CF1F3D37AA00A4649D /* StateLawTableController.swift */; };
+		2CDEE8D21F3D4F2200A4649D /* LegislationMasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEE8D11F3D4F2200A4649D /* LegislationMasterController.swift */; };
+		2CE48F4B1F3819A000793E4B /* LawBlockPrototypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE48F4A1F3819A000793E4B /* LawBlockPrototypeTableViewCell.swift */; };
+		2CE784161F8DAE040025AD19 /* Mainscreenelectionreminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE784121F8DADFF0025AD19 /* Mainscreenelectionreminders.swift */; };
+		2CE784171F8DAE040025AD19 /* MainScreenStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE784131F8DAE000025AD19 /* MainScreenStartCell.swift */; };
+		2CE784181F8DAE040025AD19 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE784141F8DAE020025AD19 /* MainScreenController.swift */; };
+		2CE784191F8DAE040025AD19 /* MainWindowReuseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE784151F8DAE030025AD19 /* MainWindowReuseCell.swift */; };
+		2CE9B3241F8576CA005806FA /* FeedbackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9B3231F8576CA005806FA /* FeedbackScreen.swift */; };
+		2CEC6F281F6F531200D53DA4 /* LegislationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC6F271F6F531200D53DA4 /* LegislationViewCell.swift */; };
+		2CEC6F2A1F6F54C000D53DA4 /* LegislationSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC6F291F6F54C000D53DA4 /* LegislationSearchController.swift */; };
+		2CF43F5E1F953763009B6B9E /* SpinnerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF43F5D1F953763009B6B9E /* SpinnerClass.swift */; };
+		2CF43F621F9539D6009B6B9E /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF43F611F9539D6009B6B9E /* SpinnerView.swift */; };
+		2CF43F641F953A55009B6B9E /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF43F631F953A55009B6B9E /* Spinner.swift */; };
+		2CF871EC1F337B76008FFD32 /* LegislationDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF871EB1F337B76008FFD32 /* LegislationDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C13B0ED1FCFB58E001B3C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CCA34811F1E50B70022F625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C13B0E31FCFB58E001B3C45;
+			remoteInfo = "CVX Updates";
+		};
 		2CCA34A11F1E50B80022F625 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CCA34811F1E50B70022F625 /* Project object */;
@@ -26,7 +77,60 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2C2EC6FD1F8C7B70008C406D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C13B0EF1FCFB58E001B3C45 /* CVX Updates.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF86D6E1F8D23F40089378E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2C022A7B1F47666700405492 /* ElectionCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectionCalendar.swift; path = ../ElectionCalendar.swift; sourceTree = "<group>"; };
+		2C0CACF51F4A75A3004942EB /* ElectionCalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectionCalendarCell.swift; path = ../ElectionCalendarCell.swift; sourceTree = "<group>"; };
+		2C11899E1F7AF40000AB22EB /* CandidateViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateViewer.swift; sourceTree = "<group>"; };
+		2C1189A01F7AF52700AB22EB /* CandidateResultCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateResultCellTableViewCell.swift; sourceTree = "<group>"; };
+		2C13B0E41FCFB58E001B3C45 /* CVX Updates.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CVX Updates.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C13B0E71FCFB58E001B3C45 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2C13B0EA1FCFB58E001B3C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2C13B0EC1FCFB58E001B3C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C13B0F31FCFB68C001B3C45 /* TableViewCell-22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell-22.swift"; sourceTree = "<group>"; };
+		2C13B0F51FCFB6CA001B3C45 /* NoReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoReminderCell.swift; sourceTree = "<group>"; };
+		2C13B0F71FCFB6F8001B3C45 /* ElectionUpdateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionUpdateCell.swift; sourceTree = "<group>"; };
+		2C1AD1F31F23A8590084925D /* VoteControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteControllerViewController.swift; sourceTree = "<group>"; };
+		2C215BCF1F67195E00D71A43 /* RepresentativeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeViewCell.swift; sourceTree = "<group>"; };
+		2C215BD11F6719BD00D71A43 /* RepresentativeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeView.swift; sourceTree = "<group>"; };
+		2C2E6D6C1FC655790028FD06 /* TheElectionCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheElectionCalendar.swift; sourceTree = "<group>"; };
+		2C2EC6EE1F8C7B70008C406D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2C35C1A51FD052ED00A66DB6 /* CVX Updates.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CVX Updates.entitlements"; sourceTree = "<group>"; };
+		2C38561C1F2C373D00BB090A /* VoteRegistrationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoteRegistrationController.swift; path = ../VoteRegistrationController.swift; sourceTree = "<group>"; };
+		2C3996681F603E5B0029C31A /* RepresentativeFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeFinder.swift; sourceTree = "<group>"; };
+		2C4640A51FD46158000EF292 /* MainTableBlankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableBlankCell.swift; sourceTree = "<group>"; };
+		2C4640A71FD4678B000EF292 /* WidgetBlankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBlankCell.swift; sourceTree = "<group>"; };
+		2C4D75041F4D2F4400B73610 /* ElectionCalendarStateList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionCalendarStateList.swift; sourceTree = "<group>"; };
+		2C4D75061F4D31B300B73610 /* ElectionCalendarState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectionCalendarState.swift; sourceTree = "<group>"; };
+		2C5A07BE1F51E2C30074991C /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		2C5B7A611F4383BF008D20EB /* LegislationViewStateButtonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislationViewStateButtonsTableViewController.swift; sourceTree = "<group>"; };
+		2C5B7A631F438747008D20EB /* LawViewStateList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LawViewStateList.swift; sourceTree = "<group>"; };
+		2C83D7661F57ABDA00934FE8 /* MainWindowCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowCellTableViewCell.swift; sourceTree = "<group>"; };
+		2C8EC8221F6C36ED0036FB1C /* RepresentativeResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeResultCell.swift; sourceTree = "<group>"; };
+		2CC2846F1F4B43D9007B9B49 /* MonthViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewCell.swift; sourceTree = "<group>"; };
 		2CCA34891F1E50B70022F625 /* Civic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Civic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCA348C1F1E50B70022F625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CCA348E1F1E50B70022F625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,9 +142,35 @@
 		2CCA34A01F1E50B80022F625 /* CivicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CivicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCA34A41F1E50B80022F625 /* CivicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicTests.swift; sourceTree = "<group>"; };
 		2CCA34A61F1E50B80022F625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCAEAF61F5642280099C7FA /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchResultsController.swift; path = ../SearchResultsController.swift; sourceTree = "<group>"; };
+		2CD25CF11F71E01B006E3218 /* Voterregistraioncell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voterregistraioncell.swift; sourceTree = "<group>"; };
+		2CD75A6E1F3420A300201E83 /* LegislationWindowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislationWindowViewController.swift; sourceTree = "<group>"; };
+		2CDEE8CF1F3D37AA00A4649D /* StateLawTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateLawTableController.swift; sourceTree = "<group>"; };
+		2CDEE8D11F3D4F2200A4649D /* LegislationMasterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LegislationMasterController.swift; path = ../LegislationMasterController.swift; sourceTree = "<group>"; };
+		2CE48F4A1F3819A000793E4B /* LawBlockPrototypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LawBlockPrototypeTableViewCell.swift; sourceTree = "<group>"; };
+		2CE784111F8DA9CC0025AD19 /* Civic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Civic.entitlements; sourceTree = "<group>"; };
+		2CE784121F8DADFF0025AD19 /* Mainscreenelectionreminders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mainscreenelectionreminders.swift; path = ../../CVXWidgetFramework/CVXWidgetFramework/Mainscreenelectionreminders.swift; sourceTree = "<group>"; };
+		2CE784131F8DAE000025AD19 /* MainScreenStartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenStartCell.swift; path = ../../CVXWidgetFramework/CVXWidgetFramework/MainScreenStartCell.swift; sourceTree = "<group>"; };
+		2CE784141F8DAE020025AD19 /* MainScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenController.swift; path = ../../CVXWidgetFramework/CVXWidgetFramework/MainScreenController.swift; sourceTree = "<group>"; };
+		2CE784151F8DAE030025AD19 /* MainWindowReuseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowReuseCell.swift; path = ../../CVXWidgetFramework/CVXWidgetFramework/MainWindowReuseCell.swift; sourceTree = "<group>"; };
+		2CE9B3231F8576CA005806FA /* FeedbackScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackScreen.swift; sourceTree = "<group>"; };
+		2CEC6F271F6F531200D53DA4 /* LegislationViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislationViewCell.swift; sourceTree = "<group>"; };
+		2CEC6F291F6F54C000D53DA4 /* LegislationSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislationSearchController.swift; sourceTree = "<group>"; };
+		2CF43F5D1F953763009B6B9E /* SpinnerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerClass.swift; sourceTree = "<group>"; };
+		2CF43F611F9539D6009B6B9E /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		2CF43F631F953A55009B6B9E /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		2CF871EB1F337B76008FFD32 /* LegislationDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislationDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C13B0E11FCFB58E001B3C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13B0E51FCFB58E001B3C45 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCA34861F1E50B70022F625 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +188,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C13B0E61FCFB58E001B3C45 /* CVX Updates */ = {
+			isa = PBXGroup;
+			children = (
+				2C35C1A51FD052ED00A66DB6 /* CVX Updates.entitlements */,
+				2C13B0E71FCFB58E001B3C45 /* TodayViewController.swift */,
+				2C13B0F31FCFB68C001B3C45 /* TableViewCell-22.swift */,
+				2C13B0F51FCFB6CA001B3C45 /* NoReminderCell.swift */,
+				2C13B0F71FCFB6F8001B3C45 /* ElectionUpdateCell.swift */,
+				2C13B0E91FCFB58E001B3C45 /* MainInterface.storyboard */,
+				2C4640A71FD4678B000EF292 /* WidgetBlankCell.swift */,
+				2C13B0EC1FCFB58E001B3C45 /* Info.plist */,
+			);
+			path = "CVX Updates";
+			sourceTree = "<group>";
+		};
+		2C2EC6ED1F8C7B70008C406D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EC6EE1F8C7B70008C406D /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2CCA34801F1E50B70022F625 = {
 			isa = PBXGroup;
 			children = (
+				2C5B7A611F4383BF008D20EB /* LegislationViewStateButtonsTableViewController.swift */,
 				2CCA348B1F1E50B70022F625 /* Civic */,
 				2CCA34A31F1E50B80022F625 /* CivicTests */,
+				2C13B0E61FCFB58E001B3C45 /* CVX Updates */,
+				2C2EC6ED1F8C7B70008C406D /* Frameworks */,
 				2CCA348A1F1E50B70022F625 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +228,7 @@
 			children = (
 				2CCA34891F1E50B70022F625 /* Civic.app */,
 				2CCA34A01F1E50B80022F625 /* CivicTests.xctest */,
+				2C13B0E41FCFB58E001B3C45 /* CVX Updates.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,13 +236,49 @@
 		2CCA348B1F1E50B70022F625 /* Civic */ = {
 			isa = PBXGroup;
 			children = (
+				2CE784111F8DA9CC0025AD19 /* Civic.entitlements */,
 				2CCA348C1F1E50B70022F625 /* AppDelegate.swift */,
 				2CCA348E1F1E50B70022F625 /* ViewController.swift */,
+				2CE784121F8DADFF0025AD19 /* Mainscreenelectionreminders.swift */,
+				2CE784131F8DAE000025AD19 /* MainScreenStartCell.swift */,
+				2CE784151F8DAE030025AD19 /* MainWindowReuseCell.swift */,
+				2CF43F5D1F953763009B6B9E /* SpinnerClass.swift */,
+				2CE784141F8DAE020025AD19 /* MainScreenController.swift */,
+				2C022A7B1F47666700405492 /* ElectionCalendar.swift */,
+				2CCAEAF61F5642280099C7FA /* SearchResultsController.swift */,
+				2C38561C1F2C373D00BB090A /* VoteRegistrationController.swift */,
+				2CD25CF11F71E01B006E3218 /* Voterregistraioncell.swift */,
+				2C0CACF51F4A75A3004942EB /* ElectionCalendarCell.swift */,
+				2CC2846F1F4B43D9007B9B49 /* MonthViewCell.swift */,
+				2C1AD1F31F23A8590084925D /* VoteControllerViewController.swift */,
 				2CCA34901F1E50B70022F625 /* Main.storyboard */,
+				2C4640A51FD46158000EF292 /* MainTableBlankCell.swift */,
+				2C2E6D6C1FC655790028FD06 /* TheElectionCalendar.swift */,
+				2CF43F611F9539D6009B6B9E /* SpinnerView.swift */,
+				2CF43F631F953A55009B6B9E /* Spinner.swift */,
+				2CE9B3231F8576CA005806FA /* FeedbackScreen.swift */,
+				2C1189A01F7AF52700AB22EB /* CandidateResultCellTableViewCell.swift */,
+				2C215BD11F6719BD00D71A43 /* RepresentativeView.swift */,
+				2C215BCF1F67195E00D71A43 /* RepresentativeViewCell.swift */,
+				2C5A07BE1F51E2C30074991C /* SearchController.swift */,
+				2C4D75061F4D31B300B73610 /* ElectionCalendarState.swift */,
+				2C4D75041F4D2F4400B73610 /* ElectionCalendarStateList.swift */,
+				2C5B7A631F438747008D20EB /* LawViewStateList.swift */,
+				2CDEE8D11F3D4F2200A4649D /* LegislationMasterController.swift */,
+				2CEC6F291F6F54C000D53DA4 /* LegislationSearchController.swift */,
+				2CE48F4A1F3819A000793E4B /* LawBlockPrototypeTableViewCell.swift */,
+				2CEC6F271F6F531200D53DA4 /* LegislationViewCell.swift */,
+				2C83D7661F57ABDA00934FE8 /* MainWindowCellTableViewCell.swift */,
+				2CD75A6E1F3420A300201E83 /* LegislationWindowViewController.swift */,
+				2CF871EB1F337B76008FFD32 /* LegislationDisplay.swift */,
+				2CDEE8CF1F3D37AA00A4649D /* StateLawTableController.swift */,
 				2CCA34961F1E50B80022F625 /* Assets.xcassets */,
 				2CCA34981F1E50B80022F625 /* LaunchScreen.storyboard */,
 				2CCA349B1F1E50B80022F625 /* Info.plist */,
 				2CCA34931F1E50B80022F625 /* Civic.xcdatamodeld */,
+				2C3996681F603E5B0029C31A /* RepresentativeFinder.swift */,
+				2C11899E1F7AF40000AB22EB /* CandidateViewer.swift */,
+				2C8EC8221F6C36ED0036FB1C /* RepresentativeResultCell.swift */,
 			);
 			path = Civic;
 			sourceTree = "<group>";
@@ -102,6 +295,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2C13B0E31FCFB58E001B3C45 /* CVX Updates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C13B0F01FCFB58E001B3C45 /* Build configuration list for PBXNativeTarget "CVX Updates" */;
+			buildPhases = (
+				2C13B0E01FCFB58E001B3C45 /* Sources */,
+				2C13B0E11FCFB58E001B3C45 /* Frameworks */,
+				2C13B0E21FCFB58E001B3C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CVX Updates";
+			productName = "CVX Updates";
+			productReference = 2C13B0E41FCFB58E001B3C45 /* CVX Updates.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2CCA34881F1E50B70022F625 /* Civic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CCA34A91F1E50B80022F625 /* Build configuration list for PBXNativeTarget "Civic" */;
@@ -109,10 +319,13 @@
 				2CCA34851F1E50B70022F625 /* Sources */,
 				2CCA34861F1E50B70022F625 /* Frameworks */,
 				2CCA34871F1E50B70022F625 /* Resources */,
+				2C2EC6FD1F8C7B70008C406D /* Embed App Extensions */,
+				2CF86D6E1F8D23F40089378E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C13B0EE1FCFB58E001B3C45 /* PBXTargetDependency */,
 			);
 			name = Civic;
 			productName = Civic;
@@ -143,13 +356,29 @@
 		2CCA34811F1E50B70022F625 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Russell Jowell";
 				TargetAttributes = {
+					2C13B0E31FCFB58E001B3C45 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = P664L47KM7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					2CCA34881F1E50B70022F625 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P664L47KM7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					2CCA349F1F1E50B80022F625 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -173,11 +402,20 @@
 			targets = (
 				2CCA34881F1E50B70022F625 /* Civic */,
 				2CCA349F1F1E50B80022F625 /* CivicTests */,
+				2C13B0E31FCFB58E001B3C45 /* CVX Updates */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C13B0E21FCFB58E001B3C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13B0EB1FCFB58E001B3C45 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCA34871F1E50B70022F625 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,13 +436,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C13B0E01FCFB58E001B3C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13B0E81FCFB58E001B3C45 /* TodayViewController.swift in Sources */,
+				2C4640A81FD4678B000EF292 /* WidgetBlankCell.swift in Sources */,
+				2C13B0F81FCFB6F8001B3C45 /* ElectionUpdateCell.swift in Sources */,
+				2C13B0F61FCFB6CA001B3C45 /* NoReminderCell.swift in Sources */,
+				2C13B0F41FCFB68C001B3C45 /* TableViewCell-22.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCA34851F1E50B70022F625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C215BD21F6719BD00D71A43 /* RepresentativeView.swift in Sources */,
+				2C8EC8231F6C36ED0036FB1C /* RepresentativeResultCell.swift in Sources */,
+				2C1189A11F7AF52800AB22EB /* CandidateResultCellTableViewCell.swift in Sources */,
 				2CCA348F1F1E50B70022F625 /* ViewController.swift in Sources */,
+				2CEC6F2A1F6F54C000D53DA4 /* LegislationSearchController.swift in Sources */,
+				2CF43F641F953A55009B6B9E /* Spinner.swift in Sources */,
 				2CCA348D1F1E50B70022F625 /* AppDelegate.swift in Sources */,
+				2C3996691F603E5B0029C31A /* RepresentativeFinder.swift in Sources */,
+				2CE784171F8DAE040025AD19 /* MainScreenStartCell.swift in Sources */,
+				2C5A07BF1F51E2C30074991C /* SearchController.swift in Sources */,
+				2CEC6F281F6F531200D53DA4 /* LegislationViewCell.swift in Sources */,
+				2CF43F621F9539D6009B6B9E /* SpinnerView.swift in Sources */,
+				2CDEE8D01F3D37AA00A4649D /* StateLawTableController.swift in Sources */,
+				2CE784161F8DAE040025AD19 /* Mainscreenelectionreminders.swift in Sources */,
+				2C4D75071F4D31B300B73610 /* ElectionCalendarState.swift in Sources */,
+				2C1AD1F41F23A8590084925D /* VoteControllerViewController.swift in Sources */,
+				2CD25CF21F71E01B006E3218 /* Voterregistraioncell.swift in Sources */,
+				2CE784191F8DAE040025AD19 /* MainWindowReuseCell.swift in Sources */,
+				2C83D7671F57ABDA00934FE8 /* MainWindowCellTableViewCell.swift in Sources */,
+				2C4D75051F4D2F4400B73610 /* ElectionCalendarStateList.swift in Sources */,
+				2CCAEAF71F5642280099C7FA /* SearchResultsController.swift in Sources */,
+				2CE9B3241F8576CA005806FA /* FeedbackScreen.swift in Sources */,
+				2C215BD01F67195E00D71A43 /* RepresentativeViewCell.swift in Sources */,
+				2CF43F5E1F953763009B6B9E /* SpinnerClass.swift in Sources */,
+				2C4640A61FD46158000EF292 /* MainTableBlankCell.swift in Sources */,
+				2C2E6D6D1FC655790028FD06 /* TheElectionCalendar.swift in Sources */,
+				2CE784181F8DAE040025AD19 /* MainScreenController.swift in Sources */,
+				2CC284701F4B43D9007B9B49 /* MonthViewCell.swift in Sources */,
+				2C38561E1F2C373D00BB090A /* VoteRegistrationController.swift in Sources */,
+				2C5B7A641F438747008D20EB /* LawViewStateList.swift in Sources */,
+				2C5B7A621F4383BF008D20EB /* LegislationViewStateButtonsTableViewController.swift in Sources */,
+				2CF871EC1F337B76008FFD32 /* LegislationDisplay.swift in Sources */,
+				2C11899F1F7AF40000AB22EB /* CandidateViewer.swift in Sources */,
+				2CD75A6F1F3420A300201E83 /* LegislationWindowViewController.swift in Sources */,
+				2C022A7C1F47666700405492 /* ElectionCalendar.swift in Sources */,
+				2C0CACF61F4A75A3004942EB /* ElectionCalendarCell.swift in Sources */,
+				2CDEE8D21F3D4F2200A4649D /* LegislationMasterController.swift in Sources */,
 				2CCA34951F1E50B80022F625 /* Civic.xcdatamodeld in Sources */,
+				2CE48F4B1F3819A000793E4B /* LawBlockPrototypeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +505,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C13B0EE1FCFB58E001B3C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C13B0E31FCFB58E001B3C45 /* CVX Updates */;
+			targetProxy = 2C13B0ED1FCFB58E001B3C45 /* PBXContainerItemProxy */;
+		};
 		2CCA34A21F1E50B80022F625 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2CCA34881F1E50B70022F625 /* Civic */;
@@ -227,6 +518,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2C13B0E91FCFB58E001B3C45 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C13B0EA1FCFB58E001B3C45 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		2CCA34901F1E50B70022F625 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -246,6 +545,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2C13B0F11FCFB58E001B3C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "CVX Updates/CVX Updates.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Russell Jowell (P664L47KM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P664L47KM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CVX Updates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russjowell.cvk.CVX-Updates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C13B0F21FCFB58E001B3C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "CVX Updates/CVX Updates.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Russell Jowell (P664L47KM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P664L47KM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CVX Updates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russjowell.cvk.CVX-Updates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2CCA34A71F1E50B80022F625 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -268,7 +623,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: russ.jowell@gmail.com (YKETE4SRP9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -287,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -319,7 +675,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: russ.jowell@gmail.com (YKETE4SRP9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -332,7 +689,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -344,11 +701,18 @@
 		2CCA34AA1F1E50B80022F625 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Civic/Civic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Russell Jowell (P664L47KM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P664L47KM7;
 				INFOPLIST_FILE = Civic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Civic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.russjowell.cvk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -356,11 +720,18 @@
 		2CCA34AB1F1E50B80022F625 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Civic/Civic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Russell Jowell (P664L47KM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P664L47KM7;
 				INFOPLIST_FILE = Civic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Civic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.russjowell.cvk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -396,6 +767,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C13B0F01FCFB58E001B3C45 /* Build configuration list for PBXNativeTarget "CVX Updates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C13B0F11FCFB58E001B3C45 /* Debug */,
+				2C13B0F21FCFB58E001B3C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2CCA34841F1E50B70022F625 /* Build configuration list for PBXProject "Civic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -412,6 +792,7 @@
 				2CCA34AB1F1E50B80022F625 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CCA34AC1F1E50B80022F625 /* Build configuration list for PBXNativeTarget "CivicTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +801,7 @@
 				2CCA34AE1F1E50B80022F625 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
